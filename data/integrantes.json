@@ -1,0 +1,207 @@
+[
+    {
+        "id": "marcela-rangel",
+        "nombre": "Dra. Marcela Rangel Marrón",
+        "institucion": "UNACAR · Facultad de Química",
+        "grados": "",
+        "resumen": "Líder de la red. Recubrimientos y películas comestibles a base de polisacáridos y purés de fruta.",
+        "perfil": "Líder de la red NTCyDA y representante de la LGAC Procesos Químicos y de Alimentos del CA-3 Ingeniería Química Aplicada. Desarrolla recubrimientos y películas comestibles a base de polisacáridos y purés de fruta.",
+        "areas": [
+            "Películas y recubrimientos comestibles",
+            "Polisacáridos y purés de fruta"
+        ],
+        "sni": "",
+        "correo": "mrangel@pampano.unacar.mx",
+        "orcid": ""
+    },
+    {
+        "id": "antonieta-rios",
+        "foto": "utilidades/integrantes/antonieta-rios.webp",
+        "nombre": "Dra. María Antonieta Ríos Corripio",
+        "institucion": "SECIHTI · Colegio de Postgraduados, Campus Córdoba",
+        "grados": "Ing. en Alimentos (BUAP) · M. y Dra. en Biotecnología (CIBA-IPN) · Posdoctorado en Ciencias de los Alimentos (UDLAP)",
+        "resumen": "Instrumentación analítica, nanomateriales y películas activas de polisacáridos para alargar la vida útil.",
+        "perfil": "Investigadora del programa Jóvenes Investigadores por México (SECIHTI) en el Colpos Córdoba, proyecto “Innovaciones biotecnológicas en la conservación y transformación sustentable de agroalimentos”. Autora en revistas JCR y capítulos de libro; revisora de artículos. Miembro de AMEPAL, LASIRC y del Padrón Veracruzano de Investigadores.",
+        "areas": [
+            "Técnicas espectroscópicas (UV-Vis, FTIR)",
+            "Síntesis de nanomateriales",
+            "Películas activas a base de polisacáridos"
+        ],
+        "sni": "Nivel 1",
+        "correo": "rios.antonieta@colpos.mx",
+        "orcid": ""
+    },
+    {
+        "id": "aleida-hernandez",
+        "foto": "utilidades/integrantes/aleida-hernandez.webp",
+        "nombre": "Dra. Aleida Selene Hernández Cázares",
+        "institucion": "Colegio de Postgraduados, Campus Córdoba",
+        "grados": "Ing. Agroindustrial (UACh) · M.C. en Economía (CP) · Dra. en Tecnología de Alimentos (UPV, España)",
+        "resumen": "Ciencia y tecnología de la carne, alimentos funcionales, oleogeles y bigeles.",
+        "perfil": "Profesora Investigadora Titular desde 2002. Desarrolla alimentos funcionales, productos cárnicos, proteínas alternativas, sistemas estructurados de lípidos (oleogeles y bigeles) y compuestos bioactivos antioxidantes y antimicrobianos. Ha dirigido tesis de licenciatura, maestría y doctorado y participa en proyectos internacionales con la UPV y el IATA-CSIC.",
+        "areas": [
+            "Productos cárnicos funcionales",
+            "Proteínas alternativas",
+            "Oleogeles y bigeles",
+            "Compuestos bioactivos"
+        ],
+        "sni": "Nivel II",
+        "correo": "aleyse@colpos.mx",
+        "orcid": "https://orcid.org/0000-0002-8680-2148"
+    },
+    {
+        "id": "gema-morales",
+        "foto": "utilidades/integrantes/gema-morales.webp",
+        "nombre": "Dra. Gema Morales Olán",
+        "institucion": "Colegio de Postgraduados, Campus Córdoba (posdoctorado SECIHTI)",
+        "grados": "QFB y M. en Ciencias Alimentarias (UV) · Dra. en Biotecnología (CIBA-IPN)",
+        "resumen": "Alimentos funcionales, hidrólisis enzimática y péptidos bioactivos.",
+        "perfil": "Estancia posdoctoral en el Laboratorio de Ciencias de los Alimentos del Colpos. Trabaja con proteínas vegetales en productos cárnicos, subproductos agroindustriales y péptidos bioactivos. Participa en el proyecto internacional SUSTAINPRO con el CSIC (España) y realizó estancia en el IATA-CSIC. Cerca de ocho años de experiencia docente.",
+        "areas": [
+            "Biotecnología alimentaria",
+            "Hidrólisis enzimática y péptidos bioactivos",
+            "Digestibilidad de proteínas",
+            "Capacidad antioxidante"
+        ],
+        "sni": "Candidata",
+        "correo": "",
+        "orcid": ""
+    },
+    {
+        "id": "avelina-franco",
+        "foto": "utilidades/integrantes/avelina-franco.webp",
+        "nombre": "Dra. Avelina Franco Vega",
+        "institucion": "Universidad Autónoma de San Luis Potosí",
+        "grados": "Ing. en Alimentos (UASLP) · M. y Dra. en Ciencia de Alimentos (UDLAP)",
+        "resumen": "Tecnologías no térmicas, inocuidad, probióticos y alimentos funcionales.",
+        "perfil": "Profesora investigadora de tiempo completo y coordinadora de la Ing. en Industrias Alimentarias (UASLP). Evalúa ultrasonido, microondas y UVC y diseña matrices probióticas y sinbióticas. Presidenta 2025-2027 de AMEPAL; asesora de la industria alimentaria. Ha dirigido 7 tesis de licenciatura, 2 de maestría y 2 de doctorado.",
+        "areas": [
+            "Tecnologías no térmicas",
+            "Operaciones unitarias",
+            "Inocuidad",
+            "Probióticos y sinbióticos"
+        ],
+        "sni": "Nivel 1",
+        "correo": "avelina.franco@uaslp.mx",
+        "orcid": "https://orcid.org/0000-0003-2510-7405"
+    },
+    {
+        "id": "emma-mani",
+        "foto": "utilidades/integrantes/emma-mani.webp",
+        "nombre": "Dra. Emma Mani López",
+        "institucion": "Universidad de las Américas Puebla",
+        "grados": "Lic. en Ing. de Alimentos y M. en Ciencia de Alimentos (UDLAP) · Dra. en Ciencia de los Alimentos (ITVer)",
+        "resumen": "Agentes antimicrobianos, bacterias ácido lácticas y sus metabolitos.",
+        "perfil": "Investigadora en proyectos con la industria, con dos posdoctorados. Autora de capítulos y artículos arbitrados, con más de 50 trabajos presentados en congresos. Miembro de IAFP, IFT, AMEPAL y de esta red.",
+        "areas": [
+            "Antimicrobianos naturales",
+            "Bacterias ácido lácticas",
+            "Aplicación en alimentos"
+        ],
+        "sni": "Nivel 2",
+        "correo": "",
+        "orcid": ""
+    },
+    {
+        "id": "jocksan-morales",
+        "foto": "utilidades/integrantes/jocksan-morales.webp",
+        "nombre": "Dr. Jocksan Ismael Morales Camacho",
+        "institucion": "Universidad de las Américas Puebla",
+        "grados": "Ing. en Alimentos (BUAP) · M. en Ciencia y Tecnología de Alimentos (UAQ) · Dr. en Biotecnología (IPN)",
+        "resumen": "Ingeniería de proteínas, péptidos bioactivos y fluidos supercríticos.",
+        "perfil": "Profesor de tiempo completo en la UDLAP desde 2017 y coordinador del Doctorado en Ciencia de Alimentos (SNP) desde 2023; fue coordinador de la Ing. en Industrias Alimentarias (2018-2023).",
+        "areas": [
+            "Propiedades tecno-funcionales de proteínas",
+            "Péptidos con potencial bioactivo",
+            "Proteínas recombinantes",
+            "Fluidos supercríticos"
+        ],
+        "sni": "Nivel I",
+        "correo": "jocksan.morales@udlap.mx",
+        "orcid": "https://orcid.org/0000-0002-8710-8377"
+    },
+    {
+        "id": "victoria-aguilar",
+        "foto": "utilidades/integrantes/victoria-aguilar.webp",
+        "nombre": "Dra. Victoria Guadalupe Aguilar Raymundo",
+        "institucion": "Universidad Politécnica de Pénjamo",
+        "grados": "Lic. en Ing. Bioquímica (ITLP) · M. en Ciencia y Tecnología de los Alimentos (UAQ) · Dra. en Ciencias de Alimentos (UDLAP)",
+        "resumen": "Aprovechamiento de subproductos agroalimentarios y alimentos funcionales.",
+        "perfil": "Profesora titular de Ingeniería en Alimentos y parte del núcleo básico de la Maestría en Ciencia y Tecnología Agroalimentaria. Responsable de proyectos financiados por IDEAGTO sobre alimentos con valor agregado y tecnología emergente.",
+        "areas": [
+            "Subproductos agroalimentarios",
+            "Desarrollo de productos",
+            "Alimentos funcionales"
+        ],
+        "sni": "Nivel 1",
+        "correo": "",
+        "orcid": ""
+    },
+    {
+        "id": "alfredo-benitez",
+        "foto": "utilidades/integrantes/alfredo-benitez.webp",
+        "nombre": "Dr. Alfredo C. Benítez Rojas",
+        "institucion": "UPAEP",
+        "grados": "QFB y Esp. en Tecnología de Alimentos (BUAP) · M. en Biotecnología (UDLAP) · Dr. en Biotecnología (IPN)",
+        "resumen": "Biotecnología alimentaria, bioprocesos y biosensores; inocuidad y HACCP.",
+        "perfil": "Profesor investigador en la UPAEP. Ha dirigido 18 tesis de licenciatura, 8 de maestría y 1 de doctorado, con publicaciones Q1 y Q2. Certificado en HACCP. Colabora con la UAB, Oklahoma State University y la Universidad de Queensland. En agosto de 2026 fue reconocido como uno de los autores más leídos de Fermentation (MDPI).",
+        "areas": [
+            "Biotecnología alimentaria",
+            "Bioprocesos",
+            "Biosensores",
+            "Inocuidad y HACCP"
+        ],
+        "sni": "Nivel C",
+        "correo": "",
+        "orcid": "https://orcid.org/0000-0001-5333-3069"
+    },
+    {
+        "id": "johana-ramirez",
+        "foto": "utilidades/integrantes/johana-ramirez.webp",
+        "nombre": "Dra. Johana Ramírez Hernández",
+        "institucion": "Instituto Tecnológico Superior de Atlixco",
+        "grados": "Lic., M. y Dra. en Ciencias Químicas (BUAP) · Posdoctorado en l’Université Pierre et Marie Curie (París)",
+        "resumen": "Síntesis orgánica, productos naturales y remediación de aguas.",
+        "perfil": "Profesora de Tiempo Completo Titular “A” y líder del CA ITSA-PRONASAT. Asesora proyectos premiados en encuentros nacionales e internacionales; tiene 12 artículos (2022-2025), tres patentes en trámite y perfil deseable desde 2017.",
+        "areas": [
+            "Síntesis orgánica",
+            "Remediación de aguas con dendrímeros",
+            "Extracción de productos naturales"
+        ],
+        "sni": "Candidata",
+        "correo": "johana.ramirez@itsatlixco.edu.mx",
+        "orcid": "https://orcid.org/0009-0004-1776-0863"
+    },
+    {
+        "id": "gabriela-barcena",
+        "foto": "utilidades/integrantes/gabriela-barcena.webp",
+        "nombre": "Mtra. Guadalupe Gabriela Bárcena Vicuña",
+        "institucion": "Instituto Tecnológico Superior de Atlixco",
+        "grados": "Bióloga (BUAP) · M. en Tecnología Avanzada (CIBA-IPN)",
+        "resumen": "Microbiología alimentaria y productos naturales con aplicación biotecnológica.",
+        "perfil": "17 años de docencia, más de 50 tesis de licenciatura y 3 de maestría dirigidas. Asesora de proyectos premiados en concursos nacionales e internacionales; dos patentes en trámite y perfil deseable PRODEP desde 2022.",
+        "areas": [
+            "Microbiología alimentaria",
+            "Productos naturales biotecnológicos"
+        ],
+        "sni": "",
+        "correo": "",
+        "orcid": ""
+    },
+    {
+        "id": "beatriz-perez",
+        "nombre": "Dra. Beatriz Pérez Armendáriz",
+        "institucion": "UPAEP",
+        "grados": "",
+        "resumen": "Probióticos, prebióticos y postbióticos; pulque y hongos medicinales.",
+        "perfil": "Integrante del cuerpo académico de Biotecnología de la UPAEP. Investiga alimentos milenarios (pulque, Ganoderma lucidum), nutracéuticos y biorremediación de suelos contaminados con hidrocarburos.",
+        "areas": [
+            "Probióticos, prebióticos y postbióticos",
+            "Alimentos fermentados tradicionales",
+            "Biorremediación"
+        ],
+        "sni": "",
+        "correo": "",
+        "orcid": ""
+    }
+]

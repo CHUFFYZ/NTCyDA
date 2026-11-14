@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento | NTCyDA - UNACAR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        unacarAmarillo: '#ffcf00',
+                        unacarAmbar: '#f2a106',
+                        unacarGris: '#e4e4e4',
+                        unacarMorado: '#2b1042',
+                        unacarMoradoClaro: '#3f1961'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body data-page="evento" class="bg-unacarGris/40 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <header class="bg-unacarMorado text-white sticky top-0 z-50 shadow-lg border-b-4 border-unacarAmarillo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo e Identidad -->
+                <a href="index.html" class="flex items-center space-x-3">
+                    <!-- <div class="w-12 h-12 rounded-lg  text-unacarMorado font-extrabold flex items-center justify-center text-xl shadow"
+                        style="border: solid 2px #ffcf00;"> 
+                        <img src="utilidades/logo/logo.webp" alt="Logo NTCyDA" class="w-10 h-10 object-contain">
+                    </div> -->
+                    <div class="w-12 h-12 rounded-lg  bg-unacarAmarillo text-unacarMorado font-extrabold flex items-center justify-center text-xl shadow"> <!--bg-unacarAmarillo -->
+                        <!-- NT -->
+                        <img src="utilidades/logo/logo.webp" alt="Logo NTCyDA" class="w-10 h-10 object-contain">
+                    </div>
+                    <div>
+                        <span class="block font-bold text-lg tracking-wide leading-none">NTCyDA</span>
+                        <span class="block text-xs text-unacarAmarillo mt-1">UNACAR • Investigación Alimentaria</span>
+                    </div>
+                </a>
+
+                <!-- Menú Escritorio -->
+                <nav class="hidden lg:flex space-x-8 items-center font-medium">
+                    <a href="index.html#inicio" class="hover:text-unacarAmarillo transition">Inicio</a>
+                    <a href="nosotros.html" class="hover:text-unacarAmarillo transition">Nosotros</a>
+                    <a href="saber-mas.html" class="hover:text-unacarAmarillo transition">Sobre la red</a>
+                    <a href="index.html#eventos" class="hover:text-unacarAmarillo transition">Eventos</a>
+                    <a href="publicaciones.html" class="hover:text-unacarAmarillo transition">Publicaciones</a>
+                    <a href="contacto.html"
+                        class="bg-unacarAmarillo text-unacarMorado px-4 py-2 rounded-md font-bold hover:bg-unacarAmbar hover:text-white transition">
+                        Contacto
+                    </a>
+                </nav>
+
+                <!-- Botón Hamburguesa Móvil -->
+                <div class="lg:hidden">
+                    <button id="btn-menu" class="text-white hover:text-unacarAmarillo focus:outline-none p-2"
+                        aria-label="Abrir menú">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path id="icon-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path id="icon-close" class="hidden" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú Desplegable Móvil -->
+        <div id="mobile-menu"
+            class="hidden lg:hidden bg-unacarMoradoClaro border-t border-white/10 px-4 pt-2 pb-4 space-y-2">
+            <a href="index.html#inicio" class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Inicio</a>
+            <a href="nosotros.html" class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Nosotros</a>
+            <a href="saber-mas.html" class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Sobre la red</a>
+            <a href="index.html#eventos" class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Eventos</a>
+            <a href="publicaciones.html" class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Publicaciones</a>
+            <a href="contacto.html" class="block py-2 px-3 rounded bg-unacarAmarillo text-unacarMorado font-bold text-center mt-2">Contacto</a>
+        </div>
+    </header>
+
+    <main id="app" class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full"></main>
+
+    <footer class="bg-unacarMorado text-white border-t-4 border-unacarAmbar mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-lg font-bold text-unacarAmarillo mb-3">NTCyDA - UNACAR</h4>
+                <p class="text-sm text-gray-300 leading-relaxed">
+                    Nuevas Tecnologías de Conservación y Desarrollo de Alimentos.<br>
+                    Universidad Autónoma del Carmen.<br>
+                    Ciudad del Carmen, Campeche, México.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold text-unacarAmarillo mb-3">Enlaces Rápidos</h4>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li><a href="index.html#inicio" class="hover:text-unacarAmarillo transition">Inicio</a></li>
+                    <li><a href="saber-mas.html" class="hover:text-unacarAmarillo transition">Sobre la red</a></li>
+                    <li><a href="nosotros.html" class="hover:text-unacarAmarillo transition">Nosotros</a></li>
+                    <li><a href="index.html#eventos" class="hover:text-unacarAmarillo transition">Eventos Académicos</a></li>
+                    <li><a href="publicaciones.html" class="hover:text-unacarAmarillo transition">Publicaciones</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold text-unacarAmarillo mb-3">Contacto Institucional</h4>
+                <p class="text-sm text-gray-300">Correo: <a href="mailto:cg7030295@gmail.com" class="hover:text-unacarAmarillo underline">cg7030295@gmail.com</a></p>
+                <a href="contacto.html" class="inline-block mt-3 bg-unacarAmarillo text-unacarMorado font-bold text-sm px-4 py-2 rounded hover:bg-unacarAmbar hover:text-white transition">Escríbenos</a>
+                <p class="text-sm text-gray-300 mt-1">Facultad de Química, UNACAR</p>
+            </div>
+        </div>
+        <div class="bg-black/25 py-4 text-center text-xs text-gray-400">
+            &copy; 2026 Nuevas Tecnologías de Conservación y Desarrollo de Alimentos (NTCyDA) - UNACAR.
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/paginas.js"></script>
+</body>
+
+</html>

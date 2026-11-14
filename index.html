@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTCyDA - UNACAR | Nuevas Tecnologías de Conservación y Desarrollo de Alimentos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        unacarAmarillo: '#ffcf00',
+                        unacarAmbar: '#f2a106',
+                        unacarGris: '#e4e4e4',
+                        unacarMorado: '#2b1042',
+                        unacarMoradoClaro: '#3f1961'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body class="bg-unacarGris/40 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <!-- HEADER -->
+    <header class="bg-unacarMorado text-white sticky top-0 z-50 shadow-lg border-b-4 border-unacarAmarillo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo e Identidad -->
+                <a href="index.html" class="flex items-center space-x-3">
+                    <!-- <div class="w-12 h-12 rounded-lg  text-unacarMorado font-extrabold flex items-center justify-center text-xl shadow"
+                        style="border: solid 2px #ffcf00;"> 
+                        <img src="utilidades/logo/logo.webp" alt="Logo NTCyDA" class="w-10 h-10 object-contain">
+                    </div> -->
+                    <div
+                        class="w-12 h-12 rounded-lg  bg-unacarAmarillo text-unacarMorado font-extrabold flex items-center justify-center text-xl shadow">
+                        <!--bg-unacarAmarillo -->
+                        <!-- NT -->
+                        <img src="utilidades/logo/logo.webp" alt="Logo NTCyDA" class="w-10 h-10 object-contain">
+                    </div>
+                    <div>
+                        <span class="block font-bold text-lg tracking-wide leading-none">NTCyDA</span>
+                        <span class="block text-xs text-unacarAmarillo mt-1">UNACAR • Investigación Alimentaria</span>
+                    </div>
+                </a>
+
+                <!-- Menú Escritorio -->
+                <nav class="hidden lg:flex space-x-10 items-center font-medium">
+                    <a href="index.html#inicio" class="hover:text-unacarAmarillo transition">Inicio</a>
+                    <a href="nosotros.html" class="hover:text-unacarAmarillo transition">Nosotros</a>
+                    <a href="saber-mas.html" class="hover:text-unacarAmarillo transition">Sobre la red</a>
+                    <a href="index.html#eventos" class="hover:text-unacarAmarillo transition">Eventos</a>
+                    <a href="publicaciones.html" class="hover:text-unacarAmarillo transition">Publicaciones</a>
+                    <a href="contacto.html"
+                        class="bg-unacarAmarillo text-unacarMorado px-4 py-2 rounded-md font-bold hover:bg-unacarAmbar hover:text-white transition">
+                        Contacto
+                    </a>
+                </nav>
+
+                <!-- Botón Hamburguesa Móvil -->
+                <div class="lg:hidden">
+                    <button id="btn-menu" class="text-white hover:text-unacarAmarillo focus:outline-none p-2"
+                        aria-label="Abrir menú">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path id="icon-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path id="icon-close" class="hidden" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú Desplegable Móvil -->
+        <div id="mobile-menu"
+            class="hidden lg:hidden bg-unacarMoradoClaro border-t border-white/10 px-4 pt-2 pb-4 space-y-2">
+            <a href="index.html#inicio"
+                class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Inicio</a>
+            <a href="nosotros.html"
+                class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Nosotros</a>
+            <a href="saber-mas.html"
+                class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Sobre la red</a>
+            <a href="index.html#eventos"
+                class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Eventos</a>
+            <a href="publicaciones.html"
+                class="block py-2 px-3 rounded hover:bg-unacarMorado hover:text-unacarAmarillo">Publicaciones</a>
+            <a href="contacto.html"
+                class="block py-2 px-3 rounded bg-unacarAmarillo text-unacarMorado font-bold text-center mt-2">Contacto</a>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL / CARRUSEL HERO -->
+    <section id="inicio" class="relative w-full h-[540px] md:h-[600px] bg-unacarMorado overflow-hidden">
+        <!-- Imagen de fondo dinámica -->
+        <div id="hero-bg" class="absolute inset-0 bg-cover bg-center transition-all duration-700 scale-105"></div>
+        <!-- Capa oscura degradada para legibilidad -->
+        <div class="absolute inset-0 bg-gradient-to-r from-unacarMorado/95 via-unacarMorado/80 to-unacarMorado/40">
+        </div>
+
+        <!-- Contenido del Slide -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
+            <div class="max-w-2xl text-white">
+                <span id="hero-etiqueta"
+                    class="inline-block bg-unacarAmarillo text-unacarMorado text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full mb-4">
+                    Cargando...
+                </span>
+                <h1 id="hero-titulo" class="text-3xl sm:text-5xl font-extrabold leading-tight mb-2">
+                    Bienvenidos a NTCyDA
+                </h1>
+                <h2 id="hero-subtitulo" class="text-lg sm:text-xl text-unacarAmarillo font-semibold mb-4">
+                    Nuevas Tecnologías de Conservación y Desarrollo de Alimentos
+                </h2>
+                <p id="hero-descripcion" class="text-gray-200 text-base sm:text-lg mb-8 leading-relaxed">
+                    Cargando información institucional...
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a id="hero-boton" href="#eventos"
+                        class="bg-unacarAmarillo hover:bg-unacarAmbar text-unacarMorado hover:text-white font-bold px-7 py-3.5 rounded-lg shadow-lg transition transform hover:-translate-y-0.5">
+                        Saber más
+                    </a>
+                </div>
+            </div>
+
+            <!-- Controles del Carrusel -->
+            <div class="absolute bottom-8 left-4 sm:left-8 flex items-center space-x-3">
+                <button id="prev-slide"
+                    class="w-10 h-10 rounded-full bg-white/15 hover:bg-unacarAmarillo text-white hover:text-unacarMorado flex items-center justify-center transition">
+                    &#10094;
+                </button>
+                <button id="next-slide"
+                    class="w-10 h-10 rounded-full bg-white/15 hover:bg-unacarAmarillo text-white hover:text-unacarMorado flex items-center justify-center transition">
+                    &#10095;
+                </button>
+                <div id="hero-indicadores" class="flex space-x-2 pl-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN BREVE INSTITUCIONAL -->
+    <!-- <section id="institucional" class="bg-white py-14 border-b border-unacarGris">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8">
+            <div class="p-6 rounded-xl bg-unacarGris/30 border-l-4 border-unacarMorado">
+                <h3 class="font-bold text-lg text-unacarMorado mb-2">Investigación Aplicada</h3>
+                <p class="text-sm text-gray-600">Desarrollo de métodos innovadores para extender la vida útil y
+                    preservar el valor nutricional de los alimentos.</p>
+            </div>
+            <div class="p-6 rounded-xl bg-unacarGris/30 border-l-4 border-unacarAmbar">
+                <h3 class="font-bold text-lg text-unacarMorado mb-2">Formación Estudiantil</h3>
+                <p class="text-sm text-gray-600">Integración de alumnos de licenciatura y posgrado en proyectos
+                    científicos de impacto regional y nacional.</p>
+            </div>
+            <div class="p-6 rounded-xl bg-unacarGris/30 border-l-4 border-unacarAmarillo">
+                <h3 class="font-bold text-lg text-unacarMorado mb-2">Vinculación Académica</h3>
+                <p class="text-sm text-gray-600">Colaboración interinstitucional, congresos, talleres y transferencia
+                   ecnológica desde la UNACAR.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SECCIÓN DE EVENTOS --> t
+    <main id="eventos" class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+            <div>
+                <span class="text-unacarAmbar font-bold uppercase text-sm tracking-wider">Agenda Académica</span>
+                <h2 class="text-3xl font-extrabold text-unacarMorado mt-1">Eventos Actuales y Anteriores</h2>
+            </div>
+
+            <!-- Filtros -->
+            <div class="inline-flex bg-white p-1 rounded-lg shadow-sm border border-unacarGris">
+                <button onclick="filtrarEventos('Todos')"
+                    class="filtro-btn px-4 py-1.5 rounded-md text-sm font-semibold bg-unacarMorado text-white transition">Todos</button>
+                <button onclick="filtrarEventos('Actual')"
+                    class="filtro-btn px-4 py-1.5 rounded-md text-sm font-semibold text-gray-600 transition">Actuales</button>
+                <button onclick="filtrarEventos('Anterior')"
+                    class="filtro-btn px-4 py-1.5 rounded-md text-sm font-semibold text-gray-600 transition">Anteriores</button>
+            </div>
+        </div>
+
+        <!-- Grid de Tarjetas de Eventos -->
+        <div id="contenedor-eventos" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Se llena dinámicamente desde datos.json -->
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-unacarMorado text-white border-t-4 border-unacarAmbar mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-lg font-bold text-unacarAmarillo mb-3">NTCyDA - UNACAR</h4>
+                <p class="text-sm text-gray-300 leading-relaxed">
+                    Nuevas Tecnologías de Conservación y Desarrollo de Alimentos.<br>
+                    Universidad Autónoma del Carmen.<br>
+                    Ciudad del Carmen, Campeche, México.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold text-unacarAmarillo mb-3">Enlaces Rápidos</h4>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li><a href="index.html#inicio" class="hover:text-unacarAmarillo transition">Inicio</a></li>
+                    <li><a href="saber-mas.html" class="hover:text-unacarAmarillo transition">Sobre la red</a></li>
+                    <li><a href="nosotros.html" class="hover:text-unacarAmarillo transition">Nosotros</a></li>
+                    <li><a href="index.html#eventos" class="hover:text-unacarAmarillo transition">Eventos Académicos</a>
+                    </li>
+                    <li><a href="publicaciones.html" class="hover:text-unacarAmarillo transition">Publicaciones</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold text-unacarAmarillo mb-3">Contacto Institucional</h4>
+                <p class="text-sm text-gray-300">Correo: <a href="mailto:cg7030295@gmail.com"
+                        class="hover:text-unacarAmarillo underline">cg7030295@gmail.com</a></p>
+                <a href="contacto.html"
+                    class="inline-block mt-3 bg-unacarAmarillo text-unacarMorado font-bold text-sm px-4 py-2 rounded hover:bg-unacarAmbar hover:text-white transition">Escríbenos</a>
+                <p class="text-sm text-gray-300 mt-1">Facultad de Química, UNACAR</p>
+            </div>
+        </div>
+        <div class="bg-black/25 py-4 text-center text-xs text-gray-400">
+            &copy; 2026 Nuevas Tecnologías de Conservación y Desarrollo de Alimentos (NTCyDA) - UNACAR.
+        </div>
+    </footer>
+
+    <!-- LÓGICA JAVASCRIPT -->
+    <script>
+        // 1. Menú Hamburguesa
+        const btnMenu = document.getElementById('btn-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const iconOpen = document.getElementById('icon-open');
+        const iconClose = document.getElementById('icon-close');
+
+        btnMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            iconOpen.classList.toggle('hidden');
+            iconClose.classList.toggle('hidden');
+        });
+
+        // Variables globales
+        let slides = [];
+        let slideActual = 0;
+        let todosLosEventos = [];
+        let intervaloCarrusel;
+
+        // 2. Cargar datos desde datos.json
+        async function cargarDatos() {
+            try {
+                const respuesta = await fetch('data/datos.json');
+                const data = await respuesta.json();
+
+                slides = data.carrusel;
+                todosLosEventos = data.eventos;
+
+                iniciarCarrusel();
+                renderizarEventos(todosLosEventos);
+            } catch (error) {
+                console.error('Error al cargar datos.json:', error);
+            }
+        }
+
+        // 3. Funciones del Carrusel
+        function mostrarSlide(indice) {
+            if (!slides.length) return;
+            slideActual = (indice + slides.length) % slides.length;
+            const item = slides[slideActual];
+
+            document.getElementById('hero-bg').style.backgroundImage = `url('${item.imagen}')`;
+            document.getElementById('hero-etiqueta').textContent = item.etiqueta;
+            document.getElementById('hero-titulo').textContent = item.titulo;
+            document.getElementById('hero-subtitulo').textContent = item.subtitulo;
+            document.getElementById('hero-descripcion').textContent = item.descripcion;
+
+            const btn = document.getElementById('hero-boton');
+            btn.textContent = item.botonTexto;
+            btn.href = item.enlace;
+
+            // Actualizar puntos indicadores
+            const indicadores = document.getElementById('hero-indicadores');
+            indicadores.innerHTML = slides.map((_, i) => `
+        <button onclick="cambiarSlideManual(${i})" class="h-2.5 rounded-full transition-all ${i === slideActual ? 'w-8 bg-unacarAmarillo' : 'w-2.5 bg-white/40'}"></button>
+      `).join('');
+        }
+
+        function cambiarSlideManual(indice) {
+            clearInterval(intervaloCarrusel);
+            mostrarSlide(indice);
+            intervaloCarrusel = setInterval(() => mostrarSlide(slideActual + 1), 6000);
+        }
+
+        function iniciarCarrusel() {
+            mostrarSlide(0);
+            document.getElementById('prev-slide').addEventListener('click', () => cambiarSlideManual(slideActual - 1));
+            document.getElementById('next-slide').addEventListener('click', () => cambiarSlideManual(slideActual + 1));
+            intervaloCarrusel = setInterval(() => mostrarSlide(slideActual + 1), 6000);
+        }
+
+        // 4. Renderizar y Filtrar Eventos
+        function renderizarEventos(lista) {
+            const contenedor = document.getElementById('contenedor-eventos');
+            contenedor.innerHTML = lista.map(evento => {
+                const esActual = evento.estado === 'Actual';
+                const badgeColor = esActual
+                    ? 'bg-unacarAmarillo text-unacarMorado'
+                    : 'bg-unacarGris text-gray-700';
+
+                return `
+          <article class="bg-white rounded-xl shadow-md overflow-hidden border border-unacarGris flex flex-col hover:shadow-xl transition group">
+            <div class="relative h-48 overflow-hidden">
+              <img src="${evento.imagen}" alt="${evento.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <span class="absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-extrabold uppercase ${badgeColor}">
+                ${evento.estado}
+              </span>
+            </div>
+            <div class="p-6 flex-grow flex flex-col">
+              <span class="text-xs font-semibold text-unacarAmbar mb-1">${evento.fecha}</span>
+              <h3 class="text-xl font-bold text-unacarMorado mb-2 group-hover:text-unacarAmbar transition">
+                ${evento.titulo}
+              </h3>
+              <p class="text-gray-600 text-sm mb-6 flex-grow">
+                ${evento.resumen}
+              </p>
+              <a href="evento.html?id=${evento.id}" class="inline-flex items-center justify-center w-full bg-unacarMorado hover:bg-unacarAmbar text-white font-semibold py-2.5 px-4 rounded-lg transition text-sm">
+                Ver detalles del evento &rarr;
+              </a>
+            </div>
+          </article>
+        `;
+            }).join('');
+        }
+
+        function filtrarEventos(tipo) {
+            // Actualizar estilos de botones
+            document.querySelectorAll('.filtro-btn').forEach(btn => {
+                if (btn.textContent.includes(tipo) || (tipo === 'Todos' && btn.textContent === 'Todos')) {
+                    btn.classList.add('bg-unacarMorado', 'text-white');
+                    btn.classList.remove('text-gray-600');
+                } else {
+                    btn.classList.remove('bg-unacarMorado', 'text-white');
+                    btn.classList.add('text-gray-600');
+                }
+            });
+
+            if (tipo === 'Todos') {
+                renderizarEventos(todosLosEventos);
+            } else {
+                const filtrados = todosLosEventos.filter(e => e.estado === tipo);
+                renderizarEventos(filtrados);
+            }
+        }
+
+        cargarDatos();
+    </script>
+</body>
+
+</html>

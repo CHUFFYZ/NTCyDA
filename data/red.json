@@ -1,0 +1,112 @@
+{
+    "datos": [
+        [
+            "Nombre",
+            "Nuevas Tecnologías de Conservación y Desarrollo de Alimentos"
+        ],
+        [
+            "Tipo",
+            "Académica, científica e innovación y desarrollo tecnológico"
+        ],
+        [
+            "Carácter",
+            "Nacional"
+        ],
+        [
+            "Línea de investigación",
+            "Procesos Químicos y de Alimentos (CA-UNACAR-03)"
+        ],
+        [
+            "Grupo",
+            "CA-3 Ingeniería Química Aplicada (en consolidación), Facultad de Química"
+        ],
+        [
+            "Creación",
+            "19 de febrero de 2019"
+        ],
+        [
+            "Registro",
+            "3 de noviembre de 2021"
+        ],
+        [
+            "Responsables",
+            "Dra. Marcela Rangel Marrón y Dra. María Antonieta Ríos Corripio"
+        ]
+    ],
+    "objetivo": "Promover y expandir el desarrollo académico, el entendimiento y la amistad mediante el apoyo a actividades de investigación, educación y vinculación, y fomentar actividades conjuntas para el crecimiento de los cuerpos académicos y líneas de investigación de los miembros de la red.",
+    "mision": "Formar parte de una red de colaboración académica de investigación en nuevas tecnologías de conservación y desarrollo de alimentos que permita la integración en proyectos de investigación, publicaciones y formación de recursos humanos entre instituciones de prestigio.",
+    "vision": "Ser una red de investigación consolidada, integrada por investigadores comprometidos, innovadores y críticos, con compromiso ético profesional, en un ambiente colaborativo, creativo y eficiente, con proyección nacional.",
+    "instituciones": [
+        {
+            "n": "Universidad Autónoma del Carmen (UNACAR)",
+            "t": "CA consolidado UNACAR-CA-3 “Ingeniería Química Aplicada”, Facultad de Química. LGAC Procesos Químicos y de Alimentos: recubrimientos y películas comestibles a base de polisacáridos y purés de fruta."
+        },
+        {
+            "n": "Colegio de Postgraduados, Campus Córdoba",
+            "t": "Posgrado en Innovación Agroalimentaria Sustentable. Biotecnología agroalimentaria: alimentos funcionales con compuestos bioactivos de cultivos no convencionales, residuos agroindustriales y materiales biodegradables de envasado."
+        },
+        {
+            "n": "Instituto Tecnológico Superior de Atlixco (ITSA)",
+            "t": "CA ITSA-PRONASAT. Biotecnología: síntesis orgánica, remediación de aguas, extracción de productos naturales y evaluación biológica de extractos."
+        },
+        {
+            "n": "Universidad Popular Autónoma del Estado de Puebla (UPAEP)",
+            "t": "Biotecnología agroalimentaria y ambiental: alimentos funcionales con espirulina, probióticos, postbióticos, pulque y biorremediación."
+        },
+        {
+            "n": "Universidad de las Américas Puebla, UASLP y Universidad Politécnica de Pénjamo",
+            "t": "Instituciones que colaboran con la red en tecnologías no térmicas, ingeniería de proteínas, antimicrobianos naturales y aprovechamiento de subproductos."
+        }
+    ],
+    "estrategias": [
+        "Compartir materias primas, reactivos y equipos para proyectos conjuntos",
+        "Dirección, codirección y revisión de tesis de licenciatura y posgrado",
+        "Participar en proyectos conjuntos entre las instituciones",
+        "Escribir y revisar artículos JCR/indexados, capítulos de libro y ponencias",
+        "Facilitar estancias académicas y estudiantiles"
+    ],
+    "compromisos": [
+        "Generar conocimiento científico sobre conservación de alimentos",
+        "Mantener la calidad y pertinencia de la investigación con ética profesional",
+        "Consolidar las líneas de investigación",
+        "Fortalecer la vinculación entre instituciones",
+        "Participar en al menos una capacitación analítica"
+    ],
+    "beneficios": [
+        "Fortalecimiento de los cuerpos académicos",
+        "Permanencia en el SNII",
+        "Fortalecimiento de las LGAC",
+        "Formación de recursos humanos",
+        "Estancias de docentes y estudiantes",
+        "Comités tutoriales de licenciatura y posgrado"
+    ],
+    "resultados": [
+        "Al menos un producto científico en el primer año",
+        "Al menos dos tesis de licenciatura en codirección",
+        "Participación en comités tutoriales y en congresos",
+        "Al menos una estancia de investigación",
+        "Al menos un foro, seminario o coloquio en el primer año"
+    ],
+    "actividades": [
+        "Proyectos de investigación y publicaciones conjuntas",
+        "Estancias académicas y de investigación",
+        "Intercambio de información, equipos, reactivos y materiales",
+        "Conferencias, seminarios y simposios"
+    ],
+    "produccion": {
+        "articulos": [
+            "Comparación de las propiedades funcionales del almidón de maíz y malanga como ingrediente alternativo (Frontera Biotecnológica, 2020)",
+            "Desarrollo de películas compuestas a base de polisacáridos y proteínas para su aplicación en alimentos (Frontera Biotecnológica, 2024)",
+            "Optimization and characterization of a sodium alginate biodegradable film containing taro starch and nisin: antimicrobial effect on chicken meat (Poultry Science, 2024)",
+            "Evaluación de la calidad de agua de riego en cultivo de aguacate (100CIATEC, 2024)"
+        ],
+        "capitulos": [
+            "Obtención de almidón de malanga como ingrediente alimenticio alternativo (2019)",
+            "Evaluación de la capacidad antioxidante de c-ficocianina de espirulina (2024)"
+        ],
+        "tesis": [
+            "Efecto del glicerol y aceite de coco en películas comestibles de almidón de malanga (Lic., 2022)",
+            "Desarrollo y caracterización de películas comestibles a base de Morinda citrifolia (Lic., 2023)"
+        ]
+    }
+}

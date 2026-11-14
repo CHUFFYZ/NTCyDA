@@ -1,0 +1,283 @@
+{
+  "carrusel": [
+    {
+      "id": 1,
+      "etiqueta": "UNACAR • Facultad de Química",
+      "titulo": "Bienvenidos a NTCyDA",
+      "subtitulo": "Nuevas Tecnologías de Conservación y Desarrollo de Alimentos",
+      "descripcion": "Impulsando la investigación científica, la innovación biotecnológica y el desarrollo sustentable en la industria alimentaria.",
+      "imagen": "utilidades/1er/1.webp",
+      "botonTexto": "Saber más",
+      "enlace": "saber-mas.html"
+    },
+    {
+      "id": 2,
+      "etiqueta": "Próximo evento · 26-28 nov 2026",
+      "titulo": "2do. Seminario de Investigación",
+      "subtitulo": "“Innovación en Sistemas Alimentarios”",
+      "descripcion": "2ª Reunión anual de la red con conferencias magistrales, ponencias, talleres y visita al Jardín Botánico de la UNACAR.",
+      "imagen": "utilidades/1er/IMG_3503.webp",
+      "botonTexto": "Ver programa",
+      "enlace": "evento.html?id=seminario-2-2026"
+    },
+    {
+      "id": 3,
+      "etiqueta": "Publicaciones",
+      "titulo": "Handbook: Innovación en Sistemas Alimentarios",
+      "subtitulo": "Compuestos bioactivos y películas biodegradables",
+      "descripcion": "Obra colectiva de los integrantes de la red. Léela en línea desde esta página.",
+      "imagen": "utilidades/1er/IMG_3451.webp",
+      "botonTexto": "Ver publicaciones",
+      "enlace": "publicaciones.html"
+    },
+    {
+      "id": 4,
+      "etiqueta": "Nuestra comunidad",
+      "titulo": "Conoce a los investigadores",
+      "subtitulo": "Siete instituciones, un objetivo común",
+      "descripcion": "UNACAR, Colegio de Postgraduados, ITS Atlixco, UPAEP, UDLAP, UASLP y Universidad Politécnica de Pénjamo.",
+      "imagen": "utilidades/1er/IMG_3491.webp",
+      "botonTexto": "Ver integrantes",
+      "enlace": "nosotros.html"
+    }
+  ],
+  "eventos": [
+    {
+      "id": "seminario-2-2026",
+      "titulo": "2do. Seminario de Investigación “Innovación en Sistemas Alimentarios”",
+      "fecha": "26-28 de noviembre, 2026",
+      "lugar": "UNACAR, Cd. del Carmen · en línea vía Microsoft Teams",
+      "estado": "Actual",
+      "resumen": "2ª Reunión anual de la red: conferencias magistrales, ponencias, dos talleres y visita al Jardín Botánico.",
+      "descripcionCompleta": "Segunda reunión anual de la Red de colaboración académica NTCyDA. Incluye la presentación del Handbook “Innovación en Sistemas Alimentarios, Compuestos Bioactivos y Películas Biodegradables”, conferencias magistrales de las Dras. Avelina Franco Vega y Emma Mani López, ponencias de integrantes y los talleres “Introducción a Design Expert” y “Métodos de evaluación sensorial para alimentos”.",
+      "imagen": "utilidades/1er/IMG_3503.webp",
+      "registro": "https://forms.gle/EJEMPLO-registro-2do-seminario",
+      "registroEstado": "abierto",
+      "asistencia": {
+        "enlace": "https://teams.microsoft.com/meet/2509820987530612?p=zFXL3s0Ty10Bf7dkFm",
+        "desde": "2026-11-26T09:45:00-06:00",
+        "hasta": "2026-11-27T14:00:00-06:00"
+      },
+      "conexion": {
+        "enlace": "https://teams.microsoft.com/meet/2509820987530612?p=zFXL3s0Ty10Bf7dkFm",
+        "id": "250 982 098 753 061 2",
+        "codigo": "fi3tZ9CB",
+        "desde": "2026-11-26T09:45:00-06:00",
+        "hasta": "2026-11-27T14:00:00-06:00"
+      },
+      "documentos": [
+        {
+          "nombre": "Programa del 2do. Seminario (Word)",
+          "url": "utilidades/docs/PROGRAMACIÓN 2do SEMINARIO DE INVESTIGACION NTCyDA.docx"
+        }
+      ],
+      "programa": [
+        {
+          "dia": "Jueves 26 de noviembre",
+          "moderador": "Dra. Aleida Selene Hernández Cázares",
+          "items": [
+            {
+              "h": "10:00",
+              "t": "Presentación del presídium y bienvenida",
+              "p": "Dr. Alejandro Ruiz Marín (Director, Facultad de Química). Inauguración: Dr. Manuel Antonio López Cisneros (Director de Investigación y Posgrado, UNACAR)"
+            },
+            {
+              "h": "10:30",
+              "t": "Presentación del Handbook Innovación en Sistemas Alimentarios, Compuestos Bioactivos y Películas Biodegradables",
+              "p": "Dra. Marcela Rangel Marrón, líder de la red"
+            },
+            {
+              "h": "11:00-11:40",
+              "t": "Conferencia magistral: Rediseñando la industria alimentaria: tecnologías alternativas de procesamiento para optimizar las operaciones unitarias",
+              "p": "Dra. Avelina Franco Vega (UASLP)"
+            },
+            {
+              "h": "12:00-12:20",
+              "t": "Caracterización tecnológica y actividad antioxidante de tortillas de maíz nixtamalizado enriquecidas con harinas alternativas",
+              "p": "Morales-Olán G., López-Wong W., Morales-Camacho J.I., Luna-Suárez S."
+            },
+            {
+              "h": "12:30-12:50",
+              "t": "Potencial antimicrobiano de extractos de espirulina (Arthrospira maxima) obtenidos por extracción con CO₂ supercrítico",
+              "p": "Morales-Camacho J.I., Bustos-Peregrina A.Y., Ríos-Corripio M.A., Hernández-Figueroa R.H."
+            },
+            {
+              "h": "13:00-13:20",
+              "t": "Bigel W/O como sustituto de grasa animal en salchichas: efectos fisicoquímicos, microestructurales, tecnológicos y nutricionales",
+              "p": "Hernández-Nolasco Z., Acateca-Hernández M.I., Mani-López E., Hernández-Cázares A.S."
+            },
+            {
+              "h": "13:30-13:50",
+              "t": "Desarrollo de productos de panificación enriquecidos con harina de vaina de mezquite (Prosopis laevigata)",
+              "p": "Altamirano-Fortoul R., Franco-Vega A., Cabrera-Ramírez A.H., Aguilar-Raymundo V.G."
+            },
+            {
+              "h": "16:00-19:00",
+              "t": "Taller 1: Introducción a Design Expert",
+              "p": "Dra. Avelina Franco Vega (UASLP)"
+            }
+          ]
+        },
+        {
+          "dia": "Viernes 27 de noviembre",
+          "moderador": "Dra. María Antonieta Ríos Corripio",
+          "items": [
+            {
+              "h": "10:00-10:40",
+              "t": "Conferencia magistral 2: Uso y aplicaciones de las bacterias ácido lácticas y sus metabolitos como antimicrobianos",
+              "p": "Dra. Emma Mani López (UDLAP)"
+            },
+            {
+              "h": "10:50-11:10",
+              "t": "Optimización mediante diseño factorial 2³ de películas comestibles a base de miel, pectina y glicerol",
+              "p": "Rangel-Marrón M., Morales-Olán G., Cerón-Bretón J.G., Cerón-Bretón R.M."
+            },
+            {
+              "h": "11:20-11:40",
+              "t": "Aprovechamiento de la pulpa de café para el desarrollo de películas biodegradables activas con propiedades antioxidantes",
+              "p": "Ríos-Corripio M.A., Montiel-Melchor J.M., León-Martínez F.M., Rangel-Marrón M."
+            },
+            {
+              "h": "11:50-12:10",
+              "t": "Sinbióticos en matrices no lácteas: diseño, formulación y evaluación funcional",
+              "p": "Franco-Vega A., Almendárez-Luna S.C., Díaz-González A.F., Aguilar-Raymundo V.G."
+            },
+            {
+              "h": "12:20-12:40",
+              "t": "Efecto del pH y la actividad de agua en la viabilidad de un probiótico microencapsulado en jugo de manzana y alginato durante el almacenamiento en refrigeración",
+              "p": "Mani-López E., Rojas-Corres A., Hernández-Cázares A.S., López-Malo A."
+            },
+            {
+              "h": "12:50",
+              "t": "Clausura",
+              "p": "Dra. Marcela Rangel Marrón, líder de la red"
+            },
+            {
+              "h": "16:00-19:00",
+              "t": "Taller 2: Métodos de evaluación sensorial para alimentos",
+              "p": "Dra. Emma Mani López (UDLAP)"
+            }
+          ]
+        },
+        {
+          "dia": "Sábado 28 de noviembre",
+          "items": [
+            {
+              "h": "9:00-12:00",
+              "t": "Visita al Jardín Botánico",
+              "p": "Universidad Autónoma del Carmen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seminario-1-2024",
+      "titulo": "1er. Seminario de Investigación Multidisciplinario “Fortaleciendo la transferencia de conocimiento y tecnología en los alimentos”",
+      "fecha": "25-27 de septiembre, 2024",
+      "lugar": "UNACAR · en línea vía Zoom",
+      "estado": "Anterior",
+      "resumen": "1ª Reunión anual de la red: conferencias, ponencias y presentación de la red NTCyDA.",
+      "descripcionCompleta": "Primera reunión anual de la Red NTCyDA, con conferencia magistral del Dr. Aurelio López-Malo Vigil (UDLAP), ponencias sobre probióticos, postbióticos, películas comestibles, espirulina y vida útil de alimentos, y la presentación de la red por su líder, Dra. Marcela Rangel Marrón.",
+      "imagen": "utilidades/1er/IMG_3451.webp",
+      "registro": "https://forms.gle/EJEMPLO-registro-1er-seminario",
+      "registroEstado": "terminado",
+      "asistencia": {
+        "enlace": "https://cutt.ly/oeRj2AxJ",
+        "desde": "2024-09-25T09:45:00-06:00",
+        "hasta": "2024-09-27T14:00:00-06:00"
+      },
+      "documentos": [
+        {
+          "nombre": "Programa del 1er. Seminario (Word)",
+          "url": "utilidades/docs/PROGRAMACIÓN 2do SEMINARIO DE INVESTIGACION NTCyDA.docx"
+        }
+      ],
+      "programa": [
+        {
+          "dia": "Miércoles 25 de septiembre",
+          "moderador": "Dra. Emma Mani López",
+          "items": [
+            {
+              "h": "10:00",
+              "t": "Presentación del presídium y bienvenida",
+              "p": "Dr. Alejandro Ruiz Marín. Presentación de la red: Dra. Marcela Rangel Marrón. Inauguración: Dra. Heidi Angélica Salinas Padilla, Secretaria Académica UNACAR"
+            },
+            {
+              "h": "11:00-11:45",
+              "t": "Conferencia magistral: Innovación en alimentos: impulsando el futuro a través de la transferencia de conocimiento",
+              "p": "Dr. Aurelio López-Malo Vigil (UDLAP)"
+            },
+            {
+              "h": "12:00-12:30",
+              "t": "Síntesis verde de nanopartículas de oro con extracto acuoso de moringa (Moringa oleifera)",
+              "p": "Pérez-Hernández H.Y., Hernández-Cázares A.S., Rangel-Marrón M., Rojas-López M., Amador-Espejo G.G., Ríos-Corripio M.A."
+            },
+            {
+              "h": "12:40-13:10",
+              "t": "Elaboración de pan de caja sustituyendo parcialmente harina de trigo por harina de sorgo",
+              "p": "Lagunes-San Agustín C.Y., García-Ceja A., Vázquez-Bravo J.J., Bárcena-Vicuña G.G., Mani-López E., León-López A."
+            }
+          ]
+        },
+        {
+          "dia": "Jueves 26 de septiembre",
+          "moderador": "Dra. María Antonieta Ríos Corripio",
+          "items": [
+            {
+              "h": "10:00-10:40",
+              "t": "Probióticos y postbióticos asociados a la salud de bebidas fermentadas tradicionales mexicanas",
+              "p": "Dra. Beatriz Pérez Armendáriz (UPAEP)"
+            },
+            {
+              "h": "11:00-11:30",
+              "t": "Evaluación de los parámetros de producción de Arthrospira maxima en primavera bajo condiciones de invernadero en clima semitropical",
+              "p": "López-Wong W., Ríos-Corripio M.A., Torres-López M.R., Mora-Soler L., Gómez-Merino C.F., Hernández-Cázares A.S."
+            },
+            {
+              "h": "11:50-12:20",
+              "t": "Barras nutritivas con mermelada a base de maracuyá",
+              "p": "Romero-Vega V.I., Ramírez-Hernández J., Bárcena-Vicuña G.G., García-Ceja A."
+            },
+            {
+              "h": "12:30-13:00",
+              "t": "Efecto de los postbióticos en actividades biológicas",
+              "p": "M. en B. Karen Tatiana Zuluaga López"
+            }
+          ]
+        },
+        {
+          "dia": "Viernes 27 de septiembre",
+          "moderador": "Dra. Gema Morales Olán",
+          "items": [
+            {
+              "h": "10:00-10:30",
+              "t": "Caracterización de películas comestibles a base de puré de coco (Cocos nucifera L.) como alternativa de empaque",
+              "p": "Vázquez-Ovando B., Ovando-Cáceres R., Cerón-Bretón J.G., Cerón-Bretón R.M., Rangel-Marrón M."
+            },
+            {
+              "h": "10:40-11:10",
+              "t": "Evaluación de la vida de anaquel y escalamiento de una bebida postbiótica a base de aguamiel fermentada con Bacillus mojavensis",
+              "p": "Pérez-Armendáriz B., Benítez-Rojas A.C., Hernández-Brito N.I."
+            },
+            {
+              "h": "11:20-11:50",
+              "t": "Review: fermentación de granos de café (Coffea arabica L.) y su efecto en la calidad en taza en Latinoamérica",
+              "p": "Bocarando-Guzmán D., Servín-Juárez R., Ríos-Corripio M.A., Hidalgo-Contreras J.V., Escamilla-Prado E., Hernández-Cázares A.S."
+            },
+            {
+              "h": "12:00-12:30",
+              "t": "Análisis y mejora de vida útil en jarabes y producto terminado",
+              "p": "Morales-Varela A., Bárcena-Vicuña G.G., Ramírez-Hernández J., García-Ceja A."
+            },
+            {
+              "h": "12:40",
+              "t": "Clausura",
+              "p": "Dra. Marcela Rangel Marrón, líder de la red"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
